@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "crawler"
+version = "0.1.0"
+description = ""
+authors = ["Irene Xia <xiazeyu27@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+lxml = "^4.5.1"
+requests_html = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
